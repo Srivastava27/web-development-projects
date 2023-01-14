@@ -7,7 +7,7 @@ body{
 }
 .main_pic{
     width: 100%;
-    height: 600px;
+    height: 700px;
     position: absolute;
     z-index: -1;
     /* opacity: 0.9; */
@@ -43,7 +43,7 @@ body{
     padding: 10px;
     position: relative;
     left: 30px;
-    background-color: rgb(199, 109, 53);
+    background-color: rgb(178, 88, 32);
     color: white;
     border: 1px solid white;
     border-radius: 10px;
@@ -51,4 +51,21 @@ body{
 .head{
     height: 600px;
     box-shadow: inset 10px 10px 10px black;
+}
+.secondpic{
+    width: 50%;
+    height: 500px;
+    position: relative;
+    top: 250px;
+    z-index: -1;
+}
+.thirdPic{
+    width: 87%;
+    height: 500px;
+    position: relative;
+    left: 190px;
+    top: 0px;
+}
+.text{
+    border: 2px solid black;
 }
