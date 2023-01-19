@@ -122,11 +122,11 @@ nav img{
     position: sticky;
     background-color: white;
     /* width: 20%; */
-    top: 60px;
+    top: 70px;
     flex-basis: 25%;
     padding: 20px;
     height: 1000px;
-    border-radius: 4px;
+    border-radius: 2px;
     /* background: #fff; */
     color: #626262;
     align-self: flex-start;
@@ -205,17 +205,86 @@ nav img{
     /* flex-direction: row; */
 }
 .left-events{
-    border: 0.5px solid #626262;
+    /* border: 0.5px solid #626262; */
     text-align: center;
     border-radius: 4px;
     padding: 4px;
-    box-shadow: 0 0 5px 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40px;
+    position: relative;
+    overflow: hidden;
 }
 .right-event{
     margin-left: 15px;
     padding: 1px;
 }
 .left-events span{
-    font-size: medium;
+    font-size: 10px;
+    color: #fff;
     font-weight: 100;
+    background-color: #1876f2;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-top: 8px;
+    padding-bottom: 5px;
 }
+
+.right-event p{
+    font-size: 12px;
+}
+.event{
+    margin-top: 12px;
+}
+
+.advert{
+    position: absolute;
+    width: 88%;
+    top: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advertisement{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 30px;
+}
+.close{
+    margin-left: 210px;
+}
+
+.conversation{
+    position: absolute;
+    top: 480px;
+
+}
+
+.online-lists{
+    position: relative;
+}
+
+.member1{
+    position: absolute;
+    top: 520px;
+}
+
+.member2{
+    position: absolute;
+    top: 650px;
+}
+
+.member3{
+    position: absolute;
+    top: 845px;
+    right: 900px;
+    left: 1055px;
+}
+
+.member4{
+    position: absolute;
+    top: 975px;
+    left: 1055px;
+} 
