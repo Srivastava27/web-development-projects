@@ -11,6 +11,9 @@ nav{
     justify-content: space-between;
     background-color: #1876f2;
     padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .Logo{
@@ -94,4 +97,125 @@ nav img{
     /* left: 0; */
     bottom: 0;
     content: ' ';
+}
+.container{
+    /* width: 100%; */
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+    /* height: 100%; */
+}
+
+.left-sidebar{
+    /* display: flex; */
+    position: sticky;
+    /* background-color: #cbdffa; */
+    /* width: 20%; */
+    flex-basis: 25%;
+    /* height: 100vh; */
+    /* margin-left: 65px; */
+    /* margin-top: 10px; */
+    align-self: flex-start;
+}
+.right-sidebar{
+    position: sticky;
+    background-color: white;
+    /* width: 20%; */
+    top: 60px;
+    flex-basis: 25%;
+    padding: 20px;
+    height: 1000px;
+    border-radius: 4px;
+    /* background: #fff; */
+    color: #626262;
+    align-self: flex-start;
+    /* margin-right: 65px; */
+    /* margin-top: 10px; */
+}
+.main-content{
+    flex-basis: 47%;
+}
+
+.imp-links{
+    /* width: 100%;/ */
+    /* display: flex; */
+    border-bottom: 2px solid #ccc;
+}
+
+.anchor{
+    
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    color: #626262;
+    text-decoration: none;
+    width: fit-content;
+
+}
+.imp-links img{
+    width: 30px;
+    margin-right: 10px;
+    /* display: list-item; */
+}
+.imp-links a:last-child{
+    color: #1876f2;
+}
+
+.shortcut-links a{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    color: #626262;
+    text-decoration: none;
+    /* width: fit-content; */
+    padding-top: 15px;
+
+}
+.shortcut-links a img{
+    width: 35px;
+}
+.shortcut-links{
+    margin-top: 10px;
+}
+.sidebar-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+    /* background-color: ; */
+
+}
+.sidebar-title a{
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 12px;
+}
+.sidebar-title h4{
+    font-weight: 600;
+    font-size: 16px;
+}
+.events{
+    position: absolute;
+    top: 50px;
+    
+}
+.event{
+    display: flex;
+    /* flex-direction: row; */
+}
+.left-events{
+    border: 0.5px solid #626262;
+    text-align: center;
+    border-radius: 4px;
+    padding: 4px;
+    box-shadow: 0 0 5px 1px;
+}
+.right-event{
+    margin-left: 15px;
+    padding: 1px;
+}
+.left-events span{
+    font-size: medium;
+    font-weight: 100;
 }
