@@ -266,25 +266,57 @@ nav img{
     position: relative;
 }
 
-.member1{
+
+
+.conversation{
+    display: flex;
+}
+
+.online-list{
     position: absolute;
-    top: 520px;
+    /* right: 330px; */
+    top: 40px;
+    width: 100%;
+    /* display:  */
+
+}
+.online-list p{
+    width: 100px;
+    margin: auto 0px auto 5px;
+    /* margin: auto; */
+}
+.member1{
+    position: relative;
+    top: 0px;
+    display: flex;
 }
 
 .member2{
-    position: absolute;
-    top: 650px;
+    position: relative;
+    top: 10px;
+    display: flex;
 }
 
 .member3{
-    position: absolute;
-    top: 845px;
-    right: 900px;
-    left: 1055px;
+    position: relative;
+    top: 20px;
+    display: flex;
+    
 }
 
 .member4{
-    position: absolute;
-    top: 975px;
-    left: 1055px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    
 } 
+.online-list img{
+    width: 50px;
+    border-radius: 50%;
+}
+.online-list .online::after{
+    position: relative;
+    right: 110px;
+    top:35px;
+    /* left: 20px; */
+}
